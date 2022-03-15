@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html{
+   font-family: 'Lato', sans-serif;
+}
+
+
+body a{
+
+     font-family: 'UOLText', Arial, sans-serif; 
+    color: white;
+ }
+
+ body{
+   font-family: 'Roboto', sans-serif;
+ }
+
+ .container{
+     width: 1180px;
+ }
+
+ .col1{
+     color: white;
+     padding-right: 25px;
+     padding-left: 0px;
+ }
+
+
+
+ header{
+    background-image: linear-gradient( to right, rgb(43,116,242), rgb(78,47,212));
+    color: white;
+ }
+
+ a{
+    cursor: pointer;
+ }
+
+ .col1 , .col2{
+    text-align: center;
+    padding:15px;
+    height: 60px;
+    display: flex;
+    
+ } 
+
+ .col1{
+    padding-left: 0px !important;
+    text-align: left;
+ }
+
+ .col2 {
+   padding-top: 5px !important;
+    
+ }
+
+ .col3{
+   padding:15 0 15 65px;
+   height: 60px;
+   display: flex;
+   justify-content: right;
+   float: right;
+ }
+ .logo{
+    width: 85px;
+    height:  35px;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+ }
+
+ .row01{
+    height: 65px; 
+    
+    border-bottom: 0.5px solid rgba( 210,210,210, 0.2 );
+ }
+
+
+ h1{
+    font-size: 49px; 
+    font-weight: 100;
+    padding-top: 10px;
+
+ }
+ 
+
+ .sec01{
+    background-color: rgb(242,242,242);
+    height: 450px;
+    margin-bottom: 50px;
+
+ }
+
+
+
+ .retbranco{
+     height: 105px;
+     background-color: white;
+     margin-bottom: 10px;
+     justify-content: center;
+     border-bottom: 0.5px  solid rgba(210,211,211, 0.5); 
+ }
+
+ .retbranco02{
+    height: 80px;
+    background-color: white;
+    
+}
+ .retazul{
+    height: 250px;
+    background-image: linear-gradient( to right, rgb(43,116,242), rgb(78,47,212));
+    width: 1172px;
+    margin: 0 auto;
+    margin-top: -50px;
+    color: white;
+    padding: 68 0 0 50;
+        
+}
+
+.retazul a{
+   text-decoration: none;
+   color:white;
+       
+}
+.retazul a:hover{
+   color: rgba( 232,232, 232,0.9 )
+       
+}
+
+
+.span1{
+   font-size: 18px;
+   font-weight: 100;
+   letter-spacing: 3px;
+}
+
+.tituloprincipal{
+   font-weight: 500;
+   font-size: 50px;
+   padding-top: 0;
+   margin-top: 0;
+   padding-right: 20px;
+}
+
+.tdnav{
+   
+   padding: 25 8 25 8;
+   font-size: 14px;
+   font-weight: 600;
+   text-decoration: none !important;
+
+}
+
+.tdnav:hover{
+   
+   background-color: rgb( 40,101,216);
+   color:white;
+
+
+}
+.menu{
+   height: 70px;
+   display: flex;
+   align-items: center;
+   margin: 0;
+}
+
+.linkheader{
+   margin-left: 15px;
+ 
+   display:flex;
+   align-items: center;
+   font-size: 11px;
+}
+
+
+.sec02{
+   height: 500px;
+}
+
+.retbranco03{
+   height: 40px;
+   background-color: white;
+   border-top: 1px solid lightgray;
+}
+
+.seta{
+   color: blue;
+}
+
+.textonoticia{
+   color: rgb(40,40,40);
+   text-decoration: none !important;
+}
+
+.textonoticia h3{
+   font-size: 24px;
+}
